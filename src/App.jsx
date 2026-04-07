@@ -1,8 +1,8 @@
-import Car from "./Car";
+import Foods from "./Foods.jsx";
 
 function App() {
    return ( 
-      <Car/>
+      <Foods></Foods>
    );
 }
 export default App

@@ -1,7 +1,8 @@
-import Counter from "./Counter";
+import Car from "./Car";
+
 function App() {
    return ( 
-      <Counter/>
+      <Car/>
    );
 }
 export default App

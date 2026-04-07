@@ -1,8 +1,8 @@
-import Foods from "./Foods.jsx";
+import MyComponent from "./MyComponent.jsx";
 
 function App() {
    return ( 
-      <Foods></Foods>
+      <MyComponent></MyComponent>
    );
 }
 export default App

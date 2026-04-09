@@ -1,68 +1,25 @@
 body{
-    background-color: black;
-}
-.ToDoList{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    margin-top: 100px;
-}
-h1{
-    font-size: 3rem;
-    color: white;
-}
-input[type='text']{
-    font-size: 1.6rem;
-    padding: 10px;
-    border: 2px solid hsl(0, 0%, 0%,0.5000);
-    color: gray;
-    border-radius: 5px;
-}
-button{
-    font-size: 1.7rem;
-    font-weight: bold;
-    padding: 10px 20px;
-    color: white;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.5 ease;
-}
-ul{
-    list-style: none;
-}
-li{
-    font-size: 2rem;
-    background-color: hsl(0, 0%, 97%);
-    font-weight: bold;
-    padding: 15px;
-    margin-bottom: 10px;
-    border: 3px solid rgba(0, 0, 0, 0.199);
+    background-image: url(assets/background_photo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
     display: flex;
+    justify-content: center;
+    min-height: 100vh;
     align-items: center;
 }
-.text-area{
-    flex: 1;
+.clock-container{
+    backdrop-filter: blur(5px);
+    width: 100vh;
+    padding: 5px 0;
 }
-.delete-button,.Move-button{
-    padding: 8px 12px;
-    font-size: 1.4rem;
-    margin-left: 10px;
-}
-.add-button{
-    background-color: hwb(125 33% 24%);
-}
-.add-button:hover{
-    background-color: hsl(125, 47%, 44%)
-}
-.delete-button{
-    background-color: hsla(0, 99%, 44%, 0.788);
-}
-.delete-button:hover{
-     background-color: hsla(0, 99%, 34%, 0.788);
-}
-.Move-button{
-    background-color: hsla(257, 85%, 41%, 0.426);
-}
-.Move-button:hover{
-       background-color: hsla(257, 85%, 31%, 0.426);
+.clock{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: monospace;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.764);
+    text-align: center;
 }

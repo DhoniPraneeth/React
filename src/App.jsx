@@ -1,9 +1,7 @@
-import ComponentA from './UseContext/ComponentA.jsx';
-import "./UseContext/Component.css";
-import UseRef from './UseRef.jsx';
+import StopWatch from './StopWatch.jsx';
 function App() {
    return ( 
-      <UseRef></UseRef>
+      <StopWatch></StopWatch>
    );
 }
 export default App
